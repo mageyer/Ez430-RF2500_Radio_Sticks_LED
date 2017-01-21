@@ -1,6 +1,6 @@
 <!DOCTYPE CrossStudio_Project_File>
-<solution Name="WSN_radios" target="9" version="2">
-  <project Name="WSN_radios">
+<solution Name="EZ4300 RF2500 LED Code" target="9" version="2">
+  <project Name="EZ4300 RF2500 LED Code">
     <configuration
       Name="Common"
       Platform="MSP430"
