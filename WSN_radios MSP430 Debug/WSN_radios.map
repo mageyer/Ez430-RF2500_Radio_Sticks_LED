@@ -1,0 +1,69 @@
+
+SYMBOLS BY NAME
+
+    8000 ISR        _Port1_ISR          
+    8046 ISR        _Port2_ISR          
+    84a6 CODE       _RFReceivePacket    
+    846e CODE       _RFSendPacket       
+    829c CODE       _TI_CC_PowerupResetCCxxxx
+    81f4 CODE       _TI_CC_SPIReadBurstReg
+    81c4 CODE       _TI_CC_SPIReadReg   
+    8252 CODE       _TI_CC_SPIReadStatus
+    8132 CODE       _TI_CC_SPISetup     
+    8282 CODE       _TI_CC_SPIStrobe    
+    8188 CODE       _TI_CC_SPIWriteBurstReg
+    8164 CODE       _TI_CC_SPIWriteReg  
+    8124 CODE       _TI_CC_Wait         
+     200            ___RAM_Address      
+     400            ___RAM_Size         
+     200            ___begin_IDATA0     
+       0            ___begin_THREAD     
+     202            ___begin_UDATA0     
+     202            ___end_IDATA0       
+       0            ___end_THREAD       
+     20a            ___end_UDATA0       
+    80b6 CODE       _main               
+    8516 CODE       _memcpy             
+    8526 CODE       _memset             
+     200 IDATA0     _paTable            
+     201 IDATA0     _paTableLen         
+     202 UDATA0     _rxBuffer           
+     206 UDATA0     _txBuffer           
+    82dc CODE       _writeRFSettings    
+    80b6 CONST      thread_init_begin   
+    80b6 CONST      thread_init_end     
+
+
+SYMBOLS BY VALUE
+
+       0            ___begin_THREAD     
+       0            ___end_THREAD       
+     200 IDATA0     _paTable            
+     200            ___begin_IDATA0     
+     200            ___RAM_Address      
+     201 IDATA0     _paTableLen         
+     202 UDATA0     _rxBuffer           
+     202            ___end_IDATA0       
+     202            ___begin_UDATA0     
+     206 UDATA0     _txBuffer           
+     20a            ___end_UDATA0       
+     400            ___RAM_Size         
+    8000 ISR        _Port1_ISR          
+    8046 ISR        _Port2_ISR          
+    80b6 CODE       _main               
+    80b6 CONST      thread_init_begin   
+    80b6 CONST      thread_init_end     
+    8124 CODE       _TI_CC_Wait         
+    8132 CODE       _TI_CC_SPISetup     
+    8164 CODE       _TI_CC_SPIWriteReg  
+    8188 CODE       _TI_CC_SPIWriteBurstReg
+    81c4 CODE       _TI_CC_SPIReadReg   
+    81f4 CODE       _TI_CC_SPIReadBurstReg
+    8252 CODE       _TI_CC_SPIReadStatus
+    8282 CODE       _TI_CC_SPIStrobe    
+    829c CODE       _TI_CC_PowerupResetCCxxxx
+    82dc CODE       _writeRFSettings    
+    846e CODE       _RFSendPacket       
+    84a6 CODE       _RFReceivePacket    
+    8516 CODE       _memcpy             
+    8526 CODE       _memset             
